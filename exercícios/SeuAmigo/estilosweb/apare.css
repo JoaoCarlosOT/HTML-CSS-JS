@@ -1,0 +1,345 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
+*{
+    padding: 0px;
+    margin:0px;
+    font-family:'poppins';
+    
+}
+
+body{
+    width: 98vw;
+}
+
+.titleheader{
+    color: white;
+    margin-left: -0.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5vw;
+    }
+    
+    body{
+    width: 100%;
+    height: auto;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    }
+    
+    header{
+    background-image: linear-gradient(to left,#0061ba, #0468be, rgb(3, 87, 184));
+    color:white;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    }
+    
+    header>a{
+    text-decoration: none;
+    color: #FFF;
+    width: 20px;
+    text-shadow: #000000 2px 2px;
+    
+    }
+    
+    .logo{
+    padding-left: 1vw;
+    width: 4vw;
+    }
+    
+    .heada:hover{
+    transition: .4s;
+    letter-spacing: 1px;
+    color: #0084ff;
+    text-shadow: 2px 2px rgb(0, 0, 0);
+    }
+
+
+
+nav{
+    width: 0px;
+    position: fixed;
+    height: 100%;
+    color: rgb(0, 0, 0);
+    background-color: #3c4658;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    overflow: hidden;
+    transition: all .3s ease-in-out;
+}
+
+
+ nav > a:hover {
+    display: block;
+    text-align: center;
+    padding: 20px;
+    cursor: pointer;
+    border-left: 5px #0369cf solid;
+    transition: all .1s ease-in-out;
+    color: #FFF;
+}
+
+.texto{
+    display: flex;
+}
+
+.conteudo1 {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.titulo{
+    color:#FFF;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  
+}
+
+.logo{
+    width: 45px;
+}
+
+.especial{
+    color:#FFF;
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+.h1video{
+    color: #0369cf;
+    margin-left: 7vw;
+}
+
+.conteudo1{
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: auto;
+    
+}
+
+.conteudo1>ul>li{
+    list-style-type: none;
+    line-height: 30px;
+}
+
+.subtitulo{
+    font-size: 25px; 
+    list-style-type: none;
+}
+   
+.texto2{
+    color: #0061ba;
+    font-size: 40px;
+  }
+
+p{
+    line-height: 40px;
+    margin: 20px;
+    text-align: justify;
+}
+
+.video{
+    background-color: #00468c;
+    margin: 0px -20px 50px -20px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 50%;
+}
+.video>iframe{
+    position: absolute;
+    top: 11%;
+    left: 13%;
+    width: 75%;
+    height: 75%;
+    border-radius: 10px;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 auto;
+  }
+  
+  .paralax{
+    display: block;
+    background-color: #FFF;
+  }
+  
+  .container{
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+
+  section h1{
+    margin-bottom: 40px;
+    font-size: 5vw;
+    color: #FFF;
+    text-align: center;
+  }
+  
+ 
+  section.module.parallax{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 93vh;
+    width: 100%;
+    position: relative;
+    
+    background-position:  left center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+  
+  section.module.parallax:after{
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+  }
+  
+ 
+  section.module.parallax-1{
+    background-image: url("../imagens/aparelhoauditivo.jpeg");
+  }
+
+
+.conteudo2{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+margin: auto;
+width: 100%;
+}
+
+.conteudo2 > div{
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left:10px ;
+    margin-top:20px ;
+    
+}
+
+.conteudo2 > div>h1{
+    text-align: center;
+}
+
+.conteudo2 > div>p{
+    text-align: justify;
+    line-height: 40px;
+    font-size: 25px;
+}
+
+
+
+section.images {
+    display: flex;
+    margin: auto;
+    padding: 4rem;
+    bottom: 0;
+    background-color: #0061ba;
+    
+}
+
+
+section.images img {
+    max-width: 300px;
+    border-radius: 10px;
+    max-height: 300px;
+}
+section.images p {
+   color: #FFF;
+   font-size: 20px;
+}
+
+
+@media only screen and  (max-width:800px) {
+    .images {
+        display: flex;
+        flex-direction: column;
+
+    }
+    .img1{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 2200px) {
+    .icone{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 1143px)  {
+    main {
+        width: 100vw;
+    }
+
+    .heada{
+        display: none;
+    }
+
+    .icone{
+        display: inline;
+    }
+}
+
+@media only screen and (max-width: 1028px)  {
+    .conteudo2 > div{
+       margin: auto;
+        
+        
+    }
+}
+
+@media only screen and (max-width: 1553px)  {
+    .conteudo2 > div{
+       margin: auto;
+        
+        
+    }
+}
+
+@media only screen and (max-width: 1680px)  {
+    .conteudo2 > div{
+       margin: auto;
+        
+        
+    }
+}
+
+
+
+
+
+
+
+

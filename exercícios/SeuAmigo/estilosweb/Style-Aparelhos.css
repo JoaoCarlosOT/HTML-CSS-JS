@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+*{
+padding: 0px;
+margin: 0px;
+font-family:'poppins';
+}
+
+body{
+width: 100%;
+height: auto;
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
+.conteudo1{
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+}
+
+.paralax{
+    display: block;
+    background-color: #FFF;
+    }
+    
+
+
+section.module.parallax{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 100vh !important;
+width: 100%;
+position: relative;
+overflow: hidden;
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+section.module.parallax:after{
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+z-index: 8;
+background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+section.module.parallax-1{
+background-image: url("/imagens/paralaxaparelhos2.jpg");
+}
+main{
+display: block;
+background-color: #FFF;
+}
+
+.img01{
+width: 100%;
+}
+
+strong{
+position: relative;
+left: 2%;
+font-size: 3vw;
+color: rgb(47, 212, 241);
+text-shadow: #73b2e9 2px 2px;
+}
+
+.titulo{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align:center;
+position: relative;
+bottom: 25%;
+font-size: 11vw;
+color: #ffffff;
+}
+
+.subtitulo{
+color: #0061ba;
+font-size: 3vw;
+}
+
+.texto-conteudo-01{
+font-family: sans-serif;
+margin: 5vw;
+margin-top: -4vw;
+font-size: 2vw;
+text-align: justify;
+color: rgb(0, 0, 0);
+}
+
+.sub-subtitulo{
+margin: 5vw;
+text-align: left;
+color: #000000;
+font-size: 2vw;
+font-weight: bold;
+}
+
+.icone{
+display: none;
+width: 40px;
+}
+
+.video{
+width: 100%;
+background-color: #00468c;
+position: relative;
+padding-bottom: 50%;
+}
+.video>iframe{
+position: absolute;
+top: 13%;
+left: 13%;
+width: 75%;
+height: 75%;
+border-radius: 10px;
+}
+
+header{
+background-image: linear-gradient(to left,#0061ba, #0468be, rgb(3, 87, 184));
+color:white;
+display: flex;
+justify-content:space-between;
+align-items:center;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 100%;
+}
+
+.heada{
+text-decoration: none;
+color: #FFF;
+
+text-shadow: #000000 2px 2px;
+margin: 1.2vw;
+}
+
+.titleheader{
+    color: #FFF;
+    margin-left: -0.5vw;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5vw;
+    display: flex;
+    cursor: pointer;
+}
+.logo{
+padding-left: 1vw;
+width: 4vw;
+}
+
+.heada:hover{
+transition: .4s;
+letter-spacing: 1px;
+color: #0084ff;
+text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.tirouCursorDeCima{
+transition: .8s;
+text-shadow: 2px 2px rgb(0, 0, 0);
+background-image: linear-gradient(to right, rgba(0, 225, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%);
+background-repeat: no-repeat;
+background-position: top;
+background-size: 100% 0px;
+letter-spacing: 0px;
+}
+.Principal02{
+margin-top: 0.5vw;
+padding: 3%;
+display: inline-flex;
+flex-wrap: wrap;
+width: 94%;
+height: auto;
+}
+.Elem-Apare-01, .Elem-Apare-02, .Elem-Apare-03, .Elem-Apare-04{
+padding: 1vw;
+margin-right: 1.5vw;
+width: 46%;
+}
+.Titulo-P-Apare-01{
+text-align: center;
+font-size: 3.9vw;
+font-weight: bolder;
+color: #000000;
+}
+.Img-Apare-01{
+position: relative;
+}
+.Text-Contein-Apare-01{
+font-size: 1.5vw;
+color: rgb(0, 0, 0);
+text-align: justify;
+}
+.Titulo-P-Apare-02{
+text-align: center;
+font-size: 3.8vw;
+font-weight: bolder;
+color: #000000;
+}
+.Img-Apare-02{
+position: relative;
+}
+.Text-Contein-Apare-02{
+font-size: 1.5vw;
+color: rgb(0, 0, 0);
+text-align: justify;
+}
+.Titulo-P-Apare-03{
+text-align: center;
+font-size: 4vw;
+font-weight: bolder;
+color: #000000;
+}
+.Img-Apare-03{
+position: relative;
+}
+.Text-Contein-Apare-03{
+font-size: 1.5vw;
+color: rgb(0, 0, 0);
+text-align: justify;
+}
+.Titulo-P-Apare-04{
+text-align: center;
+font-size: 4vw;
+font-weight: bolder;
+color: #000000;
+}
+.Img-Apare-04{
+position: relative;
+}
+.Text-Contein-Apare-04{
+font-size: 1.5vw;
+color: rgb(0, 0, 0);
+text-align: justify;
+}
+.Img-Real-Apare-01{
+width: 65.5%;
+}
+.Img-Real-Apare-02{
+width: 57.5%;
+}
+.Img-Real-Apare-03{
+width: 40%;
+}
+.Img-Real-Apare-04{
+width: 90%;
+}
+.naver{
+transition: .6s;
+z-index: 9999;
+width: 40vw;
+position: fixed;
+height: 100%;
+color: rgb(0, 0, 0);
+background-color: #3c4658;
+top: 0;
+left: -100%;
+}
+
+.links{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.links>a{
+    text-decoration: none;
+    color: #2f85db;
+    font-weight: bolder;
+}
+
+.links>a{
+    text-decoration: none;
+    color: #2f85db;
+    font-weight: bolder;
+}
+
+.links>a:hover{
+    
+    color: #00468c;
+    font-weight: bolder;
+}
+
+.tirouCursorDeCimaMenuLateral{
+transition: .3s ease-in-out;
+display: block;
+text-align: center;
+padding: 10px;
+cursor: pointer;
+border-left: 0vw #2f85db solid;
+color: rgb(148, 157, 165);
+}
+.naver > a:hover {
+transition: .4s ease-in-out;
+display: block;
+text-align: center;
+padding: 20px;
+cursor: pointer;
+border-left: 4vw #2f85db solid;
+color: #FFF;
+}
+.naver > a{
+padding: 10px;
+text-decoration: none;
+color: rgb(148, 157, 165);
+display: block;
+text-align: center;
+padding: 20px;
+cursor: pointer;
+}
+.close{
+position: relative;
+left: 8%;
+top: 0%;
+color:#fffdfd;
+font-size: 6vw;
+cursor: pointer;
+}
+@media only screen and (max-width: 1143px) {
+    header{
+        justify-content: space-around;
+    }
+    .heada{
+        position: relative;
+        font-size: 15px;
+    }
+    .logo{
+        position: relative;
+        width: 4vw;
+    }
+    .titleheader{
+        position: relative;
+        font-size: 2.5vw;
+    }
+    .texto-conteudo-01{
+        line-height: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 10vw;
+        margin-top: 0vw;
+        font-size: 3.2vw;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .icone{
+        cursor: pointer;
+        padding-right: 2vw;
+        display: flex;
+        width: 6.5vw;
+    }
+    .Titulo-P-Apare-04, .Titulo-P-Apare-03, .Titulo-P-Apare-02, .Titulo-P-Apare-01{
+    text-align: center;
+    font-size: 6vw;
+    font-weight: bolder;
+    color: #000000;
+    }
+    .Text-Contein-Apare-01, .Text-Contein-Apare-02, .Text-Contein-Apare-03, .Text-Contein-Apare-04{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3.3vw;
+    }
+    .logo{
+        position: relative;
+        padding-left: 1.5vw;
+        width: 12vw;
+    }
+    header{
+        position: relative;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 100%;
+    }
+    .heada{
+        display: none;
+    }
+    .titleheader{
+        padding-right: 23vw;
+        position: relative;
+        margin-left: 0vw;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 8vw;
+    }
+    .texto-conteudo-01{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10vw;
+    margin-top: -10vw;
+    font-size: 3.3vw;
+    }
+    .sub-subtitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10vw;
+    text-align: left;
+    color: #000000;
+    font-size: 4vw;
+    font-weight: bold;
+    }
+    strong{
+    position: relative;
+    left: 2%;
+    font-size: 4vw;
+    color: rgb(47, 212, 241);
+    text-shadow: #73b2e9 2px 2px;
+    }
+    #sub2{
+    font-size: 8vw;
+    }
+    .subtitulo{
+    font-size: 6vw;
+    }
+    .Elem-Apare-01, .Elem-Apare-02, .Elem-Apare-03, .Elem-Apare-04{
+    margin: 10vw;
+    width: 100%;
+    }
+}
+@media screen and (max-width: 600px) {
+    .logo{
+        position: relative;
+        padding-left: 1.5vw;
+        width: 13vw;
+    }
+    .titleheader{
+        font-size: 7vw;
+    }
+    header{
+        position: relative;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        width: 100%;
+    }
+    .naver{
+        width: 50vw;
+        position: fixed;
+        height: 100%;
+        color: rgb(0, 0, 0);
+        background-color: #3c4658;
+        top: 0;
+        left: -100%;
+    }
+}

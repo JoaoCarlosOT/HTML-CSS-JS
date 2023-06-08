@@ -1,0 +1,329 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+
+*{
+padding: 0px;
+margin:0px;
+font-family:'poppins';
+
+}
+
+body{
+width: 100%;
+}
+
+header{
+background-image: linear-gradient(to left,#0061ba, #0468be, rgb(3, 87, 184));
+color:white;
+display: flex;
+justify-content:space-between;
+align-items:center;
+padding: 20px 20px;
+}
+
+header>a{
+text-decoration: none;
+color: #FFF;
+margin: 10px;
+padding: 5px;
+}
+
+.titulo{
+color: #FFF;
+text-decoration: none;
+
+}
+
+
+.titleheader{
+color: #FFF;
+margin-left: -0.5vw;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 3.5vw;
+cursor: pointer;  
+display: flex;  
+}
+
+.logo{
+display: inline;
+padding-left: 1vw;
+width: 4vw;
+}
+
+
+
+.icone{
+width: 30px;
+cursor: pointer;
+margin-right: 20px;
+}
+
+.naver{
+transition: .6s;
+z-index: 9999;
+width: 40vw;
+position: fixed;
+height: 100%;
+color: rgb(0, 0, 0);
+background-color: #3c4658;
+top: 0;
+left: -100%;
+}
+
+.heada:hover{
+transition: .4s;
+letter-spacing: 1px;
+color: #0084ff;
+text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.naver > a:hover {
+transition: .4s ease-in-out;
+display: block;
+text-align: center;
+padding: 20px;
+cursor: pointer;
+border-left: 4vw #2f85db solid;
+color: #FFF;
+}
+.naver > a{
+padding: 10px;
+text-decoration: none;
+color: rgb(148, 157, 165);
+display: block;
+text-align: center;
+padding: 20px;
+cursor: pointer;
+}
+.close{
+position: relative;
+left: 8%;
+top: 0%;
+color:#fffdfd;
+font-size: 6vw;
+cursor: pointer;
+}
+
+.texto{
+display: flex;
+}
+
+.conteudo1 {
+width: 80vw;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+
+.titulo2{
+color: #00468c;
+
+}
+
+.especial{
+color:#FFF;
+font-size: 1.8em;
+cursor: pointer;
+}
+
+.conteudo1{
+display: flex;
+padding-top: 15px;
+padding-bottom: 15px;
+margin: auto;
+
+}
+
+p{
+line-height: 40px;
+margin: 20px;
+text-align: justify;
+}
+
+.video{
+background-color: #00468c;
+
+padding: 20px;
+position: relative;
+padding-bottom: 50%;
+}
+.video>iframe{
+position: absolute;
+top: 13%;
+left: 11%;
+width: 75%;
+height: 75%;
+border-radius: 10px;
+}
+
+.wrapper{
+width: 100%;
+margin: 0 auto;
+}
+
+.paralax{
+display: block;
+background-color: #FFF;
+}
+
+.container{
+width: 100%;
+max-width: 760px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+strong{
+color: #00468c;
+font-size: 1.2em;
+}
+
+
+
+section h1{
+margin-bottom: 40px;
+font-size: 5vw;
+color: #FFF;
+text-align: center;
+}
+
+
+section.module.parallax{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 93vh;
+width: 100%;
+position: relative;
+
+background-position:  center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+section.module.parallax:after{
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+
+section.module.parallax-1{
+background-image: url("/imagens/consulta2.avif");
+}
+
+.links{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.links>a{
+    text-decoration: none;
+    color: #2f85db;
+    font-weight: bolder;
+}
+
+.links>a{
+    text-decoration: none;
+    color: #2f85db;
+    font-weight: bolder;
+}
+
+.links>a:hover{
+    
+    color: #00468c;
+    font-weight: bolder;
+}
+
+
+
+
+section.images {
+display: flex;
+padding: 18px;
+bottom: 0;
+background-color: #0061ba;
+
+}
+
+.parafooter{
+display: block;
+
+}
+
+.img1{
+border-radius: 20px;
+margin: auto;
+width: 450px;
+height: 300px;
+
+background-position:  center center;
+background-repeat: no-repeat;  
+}
+
+
+
+section.images p {
+color: #FFF;
+font-size: 1.8em;
+}
+
+.topico{
+margin-bottom: 10px;
+background-color: #FFF;
+color:#0369cf;
+border-radius: 10px;
+font-size: 35px;
+width: 100%;
+text-align: center;
+
+}
+
+
+@media only screen and  (max-width:1222px) {
+.images {
+display: flex;
+flex-direction: column;
+
+}
+.img1{
+margin: auto;
+
+}
+}
+
+@media screen and (max-width: 2200px) {
+.icone{
+display: none;
+}
+}
+
+
+@media only screen and (max-width:1143px)  {
+
+
+.heada{
+display: none;
+}
+
+.icone{
+display: inline;
+}
+}
+
+
+
+
+
+
+

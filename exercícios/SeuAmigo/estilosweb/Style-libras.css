@@ -1,0 +1,365 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+*{
+padding: 0px;
+margin:0px;
+font-family:'poppins';
+
+}
+
+.titleheader{
+color: #FFF;
+margin-left: -0.5vw;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 3.5vw;
+display: flex;
+cursor: pointer;
+}
+
+strong{
+position: relative;
+left: 2%;
+font-size: 3vw;
+color: rgb(47, 212, 241);
+text-shadow: #73b2e9 2px 2px;
+}
+
+.especial{
+color:#FFF;
+font-size: 1.8em;
+cursor: pointer;
+}
+
+body{
+width: 100%;
+height: auto;
+word-wrap: break-word;
+overflow-wrap: break-word;
+}
+
+header{
+background-image: linear-gradient(to left,#0061ba, #0468be, rgb(3, 87, 184));
+color:white;
+display: flex;
+justify-content:space-between;
+align-items:center;
+padding-top: 10px;
+padding-bottom: 10px;
+width: 100%;
+}
+
+header>a{
+text-decoration: none;
+color: #FFF;
+padding: 10px;
+text-shadow: #000000 2px 2px;
+
+}
+
+.heada:hover{
+transition: .4s;
+letter-spacing: 1px;
+color: #0084ff;
+text-shadow: 2px 2px rgb(0, 0, 0);
+}
+
+.logo{
+padding-left: 1vw;
+width: 4vw;
+}
+
+.naver{
+transition: .6s;
+z-index: 9999;
+width: 40vw;
+position: fixed;
+height: 100%;
+color: rgb(0, 0, 0);
+background-color: #3c4658;
+top: 0;
+left: -100%;
+}
+
+.tirouCursorDeCimaMenuLateral{
+transition: .3s ease-in-out;
+display: block;
+text-align: center;
+padding: 10px;
+cursor: pointer;
+border-left: 0vw #2f85db solid;
+color: rgb(148, 157, 165);
+}
+.naver > a:hover {
+transition: .4s ease-in-out;
+display: block;
+text-align: center;
+padding: 20px;
+cursor: pointer;
+border-left: 4vw #2f85db solid;
+color: #FFF;
+}
+.naver > a{
+padding: 10px;
+text-decoration: none;
+color: rgb(148, 157, 165);
+display: block;
+text-align: center;
+padding: 20px;
+cursor: pointer;
+}
+.close{
+position: relative;
+left: 8%;
+top: 0%;
+color:#fffdfd;
+font-size: 6vw;
+cursor: pointer;
+}
+
+.icone{
+display: none;
+width: 40px;
+}
+
+.img1{
+width: 700px;
+
+}
+
+.conteudo1 {
+width: 100%;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.links{
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.links>a{
+    text-decoration: none;
+    color: #2f85db;
+    font-weight: bolder;
+}
+
+.links>a{
+    text-decoration: none;
+    color: #2f85db;
+    font-weight: bolder;
+}
+
+.links>a:hover{
+    
+    color: #00468c;
+    font-weight: bolder;
+}
+
+.texto-conteudo-01{
+font-family: 'Times New Roman', Times, serif;
+margin: 5vw;
+margin-top: 0vw;
+font-size: 2vw;
+text-align: justify;
+color: rgb(0, 0, 0);
+}
+
+.texto-conteudo-02{
+font-family: 'Times New Roman', Times, serif;
+margin: 5vw;
+margin-top: 0vw;
+font-size: 2vw;
+text-align: justify;
+color: rgb(0, 0, 0);
+}
+
+.texto-conteudo-Final{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin: 5vw;
+margin-top: 0vw;
+font-size: 2.5vw;
+text-align: justify;
+color: rgb(255, 255, 255);
+}
+
+.especial{
+color:#FFF;
+font-size: 1.8em;
+cursor: pointer;
+}
+
+.conteudo1{
+display: flex;
+padding-top: 15px;
+padding-bottom: 15px;
+margin: auto;
+}
+
+.video{
+width: 100%;
+background-color: #00468c;
+position: relative;
+padding-bottom: 50%;
+}
+.video>iframe{
+position: absolute;
+top: 13%;
+left: 13%;
+width: 75%;
+height: 75%;
+border-radius: 10px;
+}
+
+.wrapper{
+width: 100%;
+margin: 0 auto;
+}
+
+.paralax{
+display: block;
+background-color: #FFF;
+}
+
+.container{
+width: 100%;
+max-width: 760px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.subtitulo1{
+color: #0061ba;
+font-size: 6vw;
+}
+
+.subtitulo2{
+color: #0061ba;
+font-size: 6vw;
+}
+
+.titulo{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+position: relative;
+bottom: 15%;
+font-size: 11vw;
+color: #ffffff;
+}
+
+section.module.parallax{
+display: flex;
+flex-direction: column;
+justify-content: center;
+height: 93vh;
+width: 100%;
+position: relative;
+background-position:  center center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size:cover;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+}
+
+section.module.parallax:after{
+content: "";
+height: 100%;
+width: 100%;
+position: absolute;
+background: -moz-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+background: -webkit-linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0,0,0,0) 40%, #000 100% );
+}
+
+section.module.parallax-1{
+background-image: url("../imagens/libraspag.jpg");
+}
+
+section.images {
+display: flex;
+margin: auto;
+padding: 4vw;
+background-color: #0061ba;
+}
+
+section.images img {
+max-width: 300px;
+border-radius: 12px;
+max-height: 300px;
+}
+
+@media only screen and (max-width: 1143px) {
+  
+    .texto-conteudo-01, .texto-conteudo-02{
+        line-height: 35px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 10vw;
+        margin-top: 0vw;
+        font-size: 3.2vw;
+    }
+    .texto-conteudo-Final{
+        line-height: 35px;
+        margin: 3vw;
+        margin-top: 0vw;
+        font-size: 3.5vw;
+    }
+    section.images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 4vw;
+        background-color: #0061ba;  
+    }
+    section.images img {
+        max-width: 400px;
+        border-radius: 12px;
+        max-height: 400px;
+    }
+}
+@media only screen and  (max-width:800px) {
+    .images {
+    display: flex;
+    flex-direction: column;
+    }
+    .img1{
+    margin: auto;
+    width: 420px;
+    }
+}
+@media screen and (max-width:1040px) {
+   
+    header>a{
+        display: none;
+    }
+    .icone{
+        cursor: pointer;
+        padding-right: 2vw;
+        display: flex;
+        width: 5.4vw;
+    }
+    .texto-conteudo-01, .texto-conteudo-02{
+        line-height: 25px;
+        font-family: 'Times New Roman', Times, serif;
+        margin: 12vw;
+        margin-top: 0vw;
+        font-size: 3.3vw;
+    }
+    .texto-conteudo-Final{
+        line-height: 25px;
+        margin: 0vw;
+        margin-top: 2vw;
+        font-size: 3.5vw;
+    }
+}
+@media screen and (max-width: 600px) {
+   .logo{
+    width: 45px;
+   }
+    .titleheader{
+        font-size: 7vw;
+    }
+  
+}
